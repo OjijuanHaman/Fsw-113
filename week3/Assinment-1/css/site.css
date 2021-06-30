@@ -1,0 +1,58 @@
+/* site.css */
+
+
+#results {
+  padding: 2px;
+  width: 600px;
+  display: inline-block;
+  vertical-align: top;
+  
+}
+.containerR{
+  
+  width: 989px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 5px;
+}
+
+
+.container {
+  width: 989px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 5px;
+  
+}
+
+header nav {
+  float: right;
+  margin-right: 5px;
+}
+
+header nav li {
+  display: inline;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+#heading{
+  font-size: 4em;
+  text-align: center;
+  text-shadow: 1px 1px 6px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: .2em;
+  color: blue;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
