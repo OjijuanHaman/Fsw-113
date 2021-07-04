@@ -69,7 +69,7 @@ function redCars(e) {
 }
 
 let redC = cars.filter(redCars);
-console.log(redC)
+console.log(JSON.stringify(redC))
 
 function everyCar(array){
     return array;
@@ -77,11 +77,11 @@ function everyCar(array){
 }
 
 let everyC = everyCar(cars)
-console.log(everyC)
+console.log(JSON.stringify(everyC))
 
 console.log(cars.filter((e) => e.color == "red"))
 
 let redGreen = cars.filter((e) => e.color == "red" || e.color == "green")
 
-console.log(redGreen)
+console.log(JSON.stringify(redGreen))
 
