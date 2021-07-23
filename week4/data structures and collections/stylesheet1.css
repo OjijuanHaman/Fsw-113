@@ -1,0 +1,51 @@
+h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 75px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: blue;
+
+}
+.butt{
+    font-size: 35px;
+    color: blue;
+    font-family: 'Orbitron', sans-serif;
+}
+.options{
+    font-size: 30px;
+}
+button{
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: 3px 4px 0px 0px #140d0d;
+	background:linear-gradient(to bottom, #3326eb 5%, #7fc5fa 100%);
+	background-color:#3326eb;
+	border-radius:18px;
+	border:1px solid #030303;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #168ede;
+
+}
+button:hover {
+	background:linear-gradient(to bottom, #7fc5fa 5%, #3326eb 100%);
+	background-color:#7fc5fa;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+li{
+    font-family: 'Special Elite', cursive;
+    font-size: 15px;
+}
+body{
+    background: url(https://images.unsplash.com/photo-1575330732168-15b10e2c976f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BhY2UlMjB3aGl0ZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
