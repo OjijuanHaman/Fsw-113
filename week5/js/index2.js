@@ -1,7 +1,8 @@
-import {default as starwars_data} from "./js/index1.js"
+import {default as starwars_data} from "./index1.js"
 
 
 const items = starwars_data.length;
+
 
 
 for(i=0; i<items; i++){
@@ -21,3 +22,5 @@ for(i=0; i<items; i++){
 
     document.body.append(final)
 }
+
+document.querySelector("#resultList");
